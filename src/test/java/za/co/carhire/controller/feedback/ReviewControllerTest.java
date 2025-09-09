@@ -36,7 +36,7 @@ class ReviewControllerTest {
         Car car = new Car();
         testReview = new Review.Builder()
                 .setReviewID(1)
-                .setUser(user)
+                .setFullName("Olwethu")
                 .setCar(car)
                 .setRating(5)
                 .setComment("Excellent service!")
